@@ -14,4 +14,11 @@ body{
 }
 #share{
     padding: 0 0.3rem;
+    background-color:rgb(58, 65, 72);
+    border: none;
+    color: cadetblue;
+}
+#rndNumb , #rndNumb2 {
+    border: none;
+    padding: 1rem 0.3rem;
 }
