@@ -5,20 +5,20 @@
 //
 rndNumb.addEventListener("click" , function() {
     
-    const num1 = Math.round(Math.random()*5+1);
+    const num1 = Math.round(Math.random()* 6) +1;
     console.log(num1);      
 })
 rndNumb2.addEventListener("click" , function(){
-    const num2 = Math.round(Math.random()*5+1);
+    const num2 = Math.round(Math.random()*6) +1;
     console.log(num2);
 })
 
 if(num1 > num2) {
     console.log("hai vinto");
     }else if (num1 < num2){
-        console.log("hai perso");
+        alert("hai perso");
     }else if (num1 = num2) {
-        console.log("pareggio");
+        alert("pareggio");
     }else{
         console.log("error");
     }
